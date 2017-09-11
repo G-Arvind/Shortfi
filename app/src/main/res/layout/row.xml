@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <com.afollestad.easyvideoplayer.EasyVideoPlayer
+            android:id="@+id/player"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:evp_autoPlay="false"
+            app:evp_customLabelText="Custom label text if rightAction is customLabel"
+            app:evp_disableControls="false"
+            app:evp_hideControlsOnPlay="true"
+            app:evp_leftAction="restart"
+            app:evp_pauseDrawable="@drawable/evp_action_pause"
+            app:evp_playDrawable="@drawable/evp_action_play"
+            app:evp_restartDrawable="@drawable/evp_action_restart"
+            app:evp_retryText="@string/evp_retry"
+            app:evp_rightAction="none"
+            app:evp_submitText="@string/evp_submit"
+            app:evp_themeColor="#ffff"
+            app:evp_autoFullscreen="true"
+            app:evp_loop="false" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:text="title">
+            </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/desc"
+            android:text="desc">
+        </TextView>
+
+        </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
