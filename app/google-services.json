@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "53886179601",
+    "firebase_url": "https://shortfi-5926b.firebaseio.com",
+    "project_id": "shortfi-5926b",
+    "storage_bucket": "shortfi-5926b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53886179601:android:a44574ff50de8911",
+        "android_client_info": {
+          "package_name": "com.example.arvind.shortfi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "53886179601-qu5i3dq50arkli8b7nh6p2vdpjpvnph7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.arvind.shortfi",
+            "certificate_hash": "f65611135800cf790d97d4ad1a5293808c099d5c"
+          }
+        },
+        {
+          "client_id": "53886179601-k8ojnrdaihttbjurv6df1t848mturr77.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCn55X_zXcRUjiFP7DfyIp0DUbREwGRBbA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "53886179601-k8ojnrdaihttbjurv6df1t848mturr77.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
